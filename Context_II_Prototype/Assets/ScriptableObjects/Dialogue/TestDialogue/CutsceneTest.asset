@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bed2a4025314a47a69fc91ede48d46, type: 3}
+  m_Name: CutsceneTest
+  m_EditorClassIdentifier: 
+  speakerNames:
+  - Aniti
+  - The Square
+  - Surprise
+  speakerSprites:
+  - {fileID: 21300000, guid: 2daaf9c8006291941b7276bfc811ee13, type: 3}
+  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  dialogue:
+  - Hey maar roze vierkant...
+  - Kan jij ook cutscenes dan?
+  - Ja man ik kan cutscenes
+  - Kijk nu start het!
+  - WOW!
+  - En nu is het een ander plaatje
+  - AnitiWoah
+  - En nu is het nog een ander plaatje!
+  - En nu is de cutscene weer weg!
+  - Ja okay maar Mana is gewoon goed bezig toch?
+  - Maar kan je ook nog een spreker erbij doen?
+  - Ja hoor! Ik was hier de hele tijd al
+  - OWO
+  - Je kan gewoon meerdere sprekers in de dialoog doen!
+  - Maar als Vierkant praat dan ben ik niet te zien in de dialogue box
+  - Ja daar moet ik maar mee dealen dan.
+  speakers: 00000000000000000100000001000000000000000100000000000000010000000100000000000000000000000200000000000000010000000200000000000000
+  cutsceneSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8800cd46ac658aa4f86735bb05823796, type: 3}
+  - {fileID: 21300000, guid: 8800cd46ac658aa4f86735bb05823796, type: 3}
+  - {fileID: 21300000, guid: dec65c8554c2ca046b55ca1a5b9be722, type: 3}
+  - {fileID: 21300000, guid: dec65c8554c2ca046b55ca1a5b9be722, type: 3}
+  - {fileID: 21300000, guid: a20a5e2354c9bfc48a847f484448e46e, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  showLeftSpeakerBox: 1
