@@ -37,14 +37,29 @@ public class GameManager : MonoBehaviour
         return StartCoroutine(FadeCycleC(start, end));
     }
 
+    public void FadeCycleEvent()
+    {
+        FadeCycle(Color.clear, Color.black);
+    }
+
     public Coroutine FadeIn(Color start, Color end)
     {
         return StartCoroutine(FadeInC(start,end));
     }
 
+    public void FadeInEvent()
+    {
+        FadeIn(Color.clear, Color.black);
+    }
+
     public Coroutine FadeOut(Color start, Color end)
     {
         return StartCoroutine(FadeOutC(start,end));
+    }
+
+    public void FadeOutEvent()
+    {
+        FadeOut(Color.black, Color.clear);
     }
 
     IEnumerator FadeCycleC(Color start, Color end)
