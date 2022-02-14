@@ -17,7 +17,7 @@ MonoBehaviour:
   speakerSprites:
   - {fileID: 21300000, guid: 6950a2fadb9c4de48a99d0d11aa3154c, type: 3}
   dialogue:
-  - Thank you for guiding us, friend
-  speakers: 0000000000000000
+  - Thank you for guiding us, friend animal
+  speakers: 00000000
   cutsceneSprites: []
   showLeftSpeakerBox: 1

@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3bed2a4025314a47a69fc91ede48d46, type: 3}
-  m_Name: CutTreeNPCAfter
+  m_Name: NatureCultureEnding
   m_EditorClassIdentifier: 
   speakerNames:
-  - Frederick
+  - Narrator
   speakerSprites:
-  - {fileID: 21300000, guid: 6950a2fadb9c4de48a99d0d11aa3154c, type: 3}
+  - {fileID: 0}
   dialogue:
-  - Hmmmm.... Cutting down that tree was a nifty solution!
-  speakers: 00000000
+  - 200 years later...
+  - From your actions, humanity started seeing animals as guides and sources of wisdom.
+  - Feel free to explore the world you've created. Refresh the page to restart.
+  speakers: 000000000000000000000000
   cutsceneSprites: []
-  showLeftSpeakerBox: 1
+  showLeftSpeakerBox: 0

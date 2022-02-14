@@ -17,7 +17,8 @@ MonoBehaviour:
   speakerSprites:
   - {fileID: 21300000, guid: 6950a2fadb9c4de48a99d0d11aa3154c, type: 3}
   dialogue:
+  - This is perfect for a campsite! Nice job!
   - We shouldn't mess with nature's boundaries
-  speakers: 00000000
+  speakers: 0000000000000000
   cutsceneSprites: []
   showLeftSpeakerBox: 1

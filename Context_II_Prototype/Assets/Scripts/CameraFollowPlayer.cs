@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour
 {
-    public float distance = 150.0f;
+    public float distance = 350.0f;
     Vector2 player_prev_position;
     // Start is called before the first frame update
     void Start()
