@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -63,6 +64,11 @@ public class Player : MonoBehaviour
         {
             movement = Vector2.right;
             //ANITA: ADD CODE TO SWITCH DIRECTION TO RIGHT HERE
+        }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
         }
 
         rb.MovePosition(rb.position + movement * moveSpeed);
