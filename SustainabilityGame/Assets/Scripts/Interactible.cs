@@ -17,7 +17,6 @@ public class Interactible : MonoBehaviour
         isPlayerInRange = false;
         if(!CompareTag("Interactable")) { Debug.LogWarning("Interactible " + name + " does not have Interactible tag. This might or might not break things."); }
         if(gameObject.layer != 3) { Debug.LogWarning("Interactible " + name + " does not have Interactible layer. This might or might not break things."); }
-
     }
 
     private void Update()

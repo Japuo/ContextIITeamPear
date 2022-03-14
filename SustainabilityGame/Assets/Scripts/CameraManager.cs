@@ -22,8 +22,5 @@ public class CameraManager : MonoBehaviour
         followPointerPosition = (followPointerPosition + player.transform.position) / 2; //quarterpoint calculation
 
         followPointer.transform.position = followPointerPosition;
-
-
     }
-
 }
