@@ -17,7 +17,10 @@ MonoBehaviour:
   speakerSprites:
   - {fileID: 0}
   dialogue:
-  - I think I saw some light up there? Something feels weird about this place.
-  speakers: 00000000
+  - Whoa, look at the view from up here! It's amazing! Look how small our camp looks
+    in comparison to the area!
+  - I brought some painting supplies, they're in my pack. If you three pose, I could
+    make a beautiful painting of this place!
+  speakers: 0000000000000000
   cutsceneSprites: []
   showLeftSpeakerBox: 1

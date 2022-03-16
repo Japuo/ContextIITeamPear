@@ -17,7 +17,9 @@ MonoBehaviour:
   speakerSprites:
   - {fileID: 0}
   dialogue:
-  - I think I saw some light up there? Something feels weird about this place.
-  speakers: 00000000
+  - The land... it's very very dead. How do you see us living here? We can't rebuild
+    here.
+  - Maybe we should just give up and go back.
+  speakers: 0000000000000000
   cutsceneSprites: []
   showLeftSpeakerBox: 1
