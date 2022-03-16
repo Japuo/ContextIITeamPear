@@ -101,7 +101,7 @@ public class DialogueManager : MonoBehaviour
             //Loop through dialogue and display letter by letter, skipping it to full if the player presses space
             for (int j = 0; j < dialogue.dialogue[i].Length && !Input.GetKeyDown(KeyCode.Space); j++)
             {
-                dialogueText.text = dialogue.dialogue[i].Substring(0, j) + "|";
+                dialogueText.text = dialogue.dialogue[i].Substring(0, j);
                 //yield return new WaitForSecondsRealtime(1 / textSpeed);
                 float t = 0;
                 while(t < 1/textSpeed && !Input.GetKeyDown(KeyCode.Space))
@@ -116,25 +116,9 @@ public class DialogueManager : MonoBehaviour
 
 
             //Wait until player presses space
-            //Deze loop mag Vincent niet zien, anders dan richt hij persoonlijk de Spaanse Programmeerinquisitie op om mij te martelen
-            //(Maar stiekem is het nou ook weer niet zo lelijk)
             while(!Input.GetKeyDown(KeyCode.Space))
             {
-                float t = 0;
-
-                dialogueText.text = dialogue.dialogue[i];
-                while (t <= 0.5f && !Input.GetKeyDown(KeyCode.Space))
-                {
-                    t += Time.unscaledDeltaTime;
-                    yield return null;
-                }
-
-                dialogueText.text = dialogue.dialogue[i] + " |";
-                while (t <= 1.0f && !Input.GetKeyDown(KeyCode.Space))
-                {
-                    t += Time.unscaledDeltaTime;
-                    yield return null;
-                }
+                yield return null;
             }
             yield return null;
         }
