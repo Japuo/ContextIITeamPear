@@ -17,16 +17,13 @@ MonoBehaviour:
   speakerSprites:
   - {fileID: 0}
   dialogue:
-  - You chose to cross natural boundaries to settle in the most efficient places.
-    Very well.
-  - Because you did this, the society you will create will not shy away from reshaping
-    nature when deemed necessary.
-  - Of course, to avoid previous mistakes, this time they have made sure to do so
-    responsibly, giving back to nature what they took, but in a more convenient place.
-  - Lets look at another key moment of your journey, just after setting up camp
-  - Your party has climbed a nearby hill to map the surrounding area
-  - You've decided to make some sort of symbol, or artpiece, to commemorate the founding
-    of your settlement.
+  - You chose to make art from natural sources.
+  - In the future, artists will also do that. Wooden and stone sculptures will be
+    common.
+  - I hope you're getting the picture now. It's not so hopeless after all!
+  - 'Let me show you one last thing. Let me show you the society you would have shaped
+    with these choices '
+  - This is 200 years from now, if you make the choices like you just made them.
   speakers: 000000000000000000000000000000000000000000000000
   cutsceneSprites:
   - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
