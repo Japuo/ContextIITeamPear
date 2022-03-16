@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bed2a4025314a47a69fc91ede48d46, type: 3}
+  m_Name: SpiritNaC
+  m_EditorClassIdentifier: 
+  speakerNames:
+  - Spirit
+  speakerSprites:
+  - {fileID: 0}
+  dialogue:
+  - You chose to observe animals to help you find food. Very well.
+  - It might have felt small, but the choice you just made will define the way humans
+    interact with animals for generations.
+  - Your followers will have learned that animals are guides. In the future, they
+    will be seen as sources of wisdom
+  - Lets look at another key moment of your journey, a few days later.
+  - 'The time has finally come to set up your first settlement. '
+  - It's just going to be some tents or huts for now... but it will be a city in
+    the future!
+  speakers: 000000000000000000000000000000000000000000000000
+  cutsceneSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
+  - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
+  - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
+  showLeftSpeakerBox: 1
