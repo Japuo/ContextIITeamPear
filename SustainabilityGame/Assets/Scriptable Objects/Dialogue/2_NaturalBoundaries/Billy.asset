@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bed2a4025314a47a69fc91ede48d46, type: 3}
+  m_Name: Billy
+  m_EditorClassIdentifier: 
+  speakerNames:
+  - Billy
+  speakerSprites:
+  - {fileID: 0}
+  dialogue:
+  - See that massive tree over there? That tree must have been there since before
+    the humans left.
+  - The ground might not be as flat or neat, but if that tree still stands there,
+    that must mean it's a good place to settle, right?
+  speakers: 0000000000000000
+  cutsceneSprites: []
+  showLeftSpeakerBox: 1
