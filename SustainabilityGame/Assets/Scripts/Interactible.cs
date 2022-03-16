@@ -7,7 +7,6 @@ public class Interactible : MonoBehaviour
 {
     public UnityEvent onInteract;
     public GameObject icon;
-    public GameObject cameraAncor;
 
     bool isPlayerInRange;
     public bool isInteractive = true;
