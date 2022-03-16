@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Walter
   m_EditorClassIdentifier: 
   speakerNames:
-  - Aniti
-  - Character
-  speakerSprites: []
-  dialogue: []
-  speakers: 
+  - Walter
+  speakerSprites:
+  - {fileID: 0}
+  dialogue:
+  - I think I saw some light up there? Something feels weird about this place.
+  speakers: 00000000
   cutsceneSprites: []
   showLeftSpeakerBox: 1

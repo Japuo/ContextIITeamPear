@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3bed2a4025314a47a69fc91ede48d46, type: 3}
-  m_Name: Billy
+  m_Name: Hannah
   m_EditorClassIdentifier: 
   speakerNames:
-  - Billy
+  - Hannah
   speakerSprites:
   - {fileID: 0}
   dialogue:
-  - My feet hurt from walking so far. Can we please have a break here?
-  - If only there was something to see other than sand and ruins.
+  - The land... it's very very dead. How do you see us living here? We can't rebuild
+    here.
+  - Maybe we should just give up and go back.
   speakers: 0000000000000000
   cutsceneSprites: []
   showLeftSpeakerBox: 1
