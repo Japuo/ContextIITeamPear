@@ -2853,7 +2853,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2861,7 +2861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -2870,11 +2870,11 @@ PrefabInstance:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2014022492}
+      objectReference: {fileID: 1000323078}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 100223056}
+      objectReference: {fileID: 398691956}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -2893,11 +2893,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Teleport
+      value: Activate
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetInteractible
+      value: PlayDialogueFromEvent
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -2905,11 +2905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Teleporter, Assembly-CSharp
+      value: YesNoBoxEvent, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Interactible, Assembly-CSharp
+      value: Dialogue, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -3070,6 +3070,61 @@ MonoBehaviour:
   - {fileID: 244642152}
   - {fileID: 1554452221}
   rb2d: {fileID: 1000323076}
+--- !u!114 &1000323078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000323075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0faa978b887f2444839ce2e571c8792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yesEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2014022492}
+        m_TargetAssemblyTypeName: Teleporter, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 100223056}
+        m_TargetAssemblyTypeName: Interactible, Assembly-CSharp
+        m_MethodName: SetInteractible
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 398691956}
+        m_TargetAssemblyTypeName: Dialogue, Assembly-CSharp
+        m_MethodName: PlayDialogueFromEvent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  text: Would you like to gather the food?
 --- !u!1001 &1022912624
 PrefabInstance:
   m_ObjectHideFlags: 0
