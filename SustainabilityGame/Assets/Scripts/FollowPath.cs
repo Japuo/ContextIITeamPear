@@ -63,6 +63,7 @@ public class FollowPath : MonoBehaviour
         if (Vector2.Distance(transform.position, currentTarget.position) < 0.1)
         {
             currentWaypoint++;
+            if (currentWaypoint >= waypoints.Length) { canWalk = false; return; }
             currentTarget = waypoints[currentWaypoint];
         }
 
