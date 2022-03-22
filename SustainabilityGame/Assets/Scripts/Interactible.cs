@@ -20,7 +20,7 @@ public class Interactible : MonoBehaviour
 
     private void Update()
     {
-        if(isPlayerInRange)
+        if(isPlayerInRange && isInteractive)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
