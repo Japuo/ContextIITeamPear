@@ -16,7 +16,7 @@ public class FollowPath : MonoBehaviour
 
     void Awake()
     {
-        canWalk = false;
+        canWalk = true;
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
