@@ -2200,8 +2200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42b7f1e33b0714440a340aa035cb868e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDetectionRange: 3
-  moveSpeed: 5
+  playerDetectionRange: 2.59
+  moveSpeed: 7.84
   waypoints:
   - {fileID: 1345709996}
   - {fileID: 1957211381}
@@ -79465,6 +79465,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6228648055306186441, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
   m_PrefabInstance: {fileID: 1253748871}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1271653952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8399111713401681984, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
+  m_PrefabInstance: {fileID: 1022912624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1271653953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271653952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03b0785d74ea4e4ea6068bf6b348d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueIndex: 0
+  onDialogueCompleted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1000323077}
+        m_TargetAssemblyTypeName: FollowPath, Assembly-CSharp
+        m_MethodName: ActivateCanWalk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1307530342
 GameObject:
   m_ObjectHideFlags: 0
@@ -80257,7 +80290,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
