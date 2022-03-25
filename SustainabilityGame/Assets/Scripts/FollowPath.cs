@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class FollowPath : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class FollowPath : MonoBehaviour
     private Transform currentTarget;
     private int currentWaypoint = 0;
     private bool canWalk;
+
+    public UnityEvent onFinishEvents;
 
     void Awake()
     {
@@ -63,9 +66,19 @@ public class FollowPath : MonoBehaviour
         if (Vector2.Distance(transform.position, currentTarget.position) < 0.1)
         {
             currentWaypoint++;
-            if (currentWaypoint >= waypoints.Length) { canWalk = false; return; }
+            if (currentWaypoint >= waypoints.Length) { canWalk = false; StartCoroutine(FoxCutscene()); return; }
             currentTarget = waypoints[currentWaypoint];
         }
 
     }
+
+    //Dit zuigt maar *shrug*
+    IEnumerator FoxCutscene()
+    {
+        SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
+        sr.enabled = false;
+        yield return new WaitForSeconds(2.0f); //Haha hardcoded values go brrrr
+        sr.enabled = true;
+        onFinishEvents.Invoke();
+    }    
 }
