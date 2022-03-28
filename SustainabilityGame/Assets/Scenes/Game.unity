@@ -817,7 +817,7 @@ MonoBehaviour:
   noEvents:
     m_PersistentCalls:
       m_Calls: []
-  text: 
+  text: Would you like to make a temporary settlement here?
 --- !u!114 &169847076 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   noEvents:
     m_PersistentCalls:
       m_Calls: []
-  text: 
+  text: Would you like to settle near the old tree?
 --- !u!114 &288646045 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
@@ -3094,7 +3094,7 @@ MonoBehaviour:
   noEvents:
     m_PersistentCalls:
       m_Calls: []
-  text: 
+  text: Would you like to settle across the river?
 --- !u!1 &916446134
 GameObject:
   m_ObjectHideFlags: 0
