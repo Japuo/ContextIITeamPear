@@ -758,6 +758,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4892805565515863493, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
   m_PrefabInstance: {fileID: 164535712}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &169847073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4892805565515863494, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+  m_PrefabInstance: {fileID: 2084667998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &169847074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169847073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0faa978b887f2444839ce2e571c8792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yesEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1156590847}
+        m_TargetAssemblyTypeName: Teleporter, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1307530346}
+        m_TargetAssemblyTypeName: Dialogue, Assembly-CSharp
+        m_MethodName: PlayDialogueFromEvent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 169847076}
+        m_TargetAssemblyTypeName: Interactible, Assembly-CSharp
+        m_MethodName: SetInteractible
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  text: 
+--- !u!114 &169847076 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+  m_PrefabInstance: {fileID: 2084667998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169847073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c2e72b14cb34439922c318139bb90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &177698525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -895,6 +966,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4892805565515863493, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
   m_PrefabInstance: {fileID: 4892805565239978359}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &288646042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4892805565515863494, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+  m_PrefabInstance: {fileID: 1962412372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &288646043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288646042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0faa978b887f2444839ce2e571c8792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yesEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1156590847}
+        m_TargetAssemblyTypeName: Teleporter, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1307530346}
+        m_TargetAssemblyTypeName: Dialogue, Assembly-CSharp
+        m_MethodName: PlayDialogueFromEvent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 288646045}
+        m_TargetAssemblyTypeName: Interactible, Assembly-CSharp
+        m_MethodName: SetInteractible
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  text: 
+--- !u!114 &288646045 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+  m_PrefabInstance: {fileID: 1962412372}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288646042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969c2e72b14cb34439922c318139bb90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &311234944
 GameObject:
   m_ObjectHideFlags: 0
@@ -2340,7 +2482,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2353,7 +2495,7 @@ PrefabInstance:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1156590847}
+      objectReference: {fileID: 889484824}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -2368,7 +2510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Teleport
+      value: Activate
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -2376,11 +2518,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Teleporter, Assembly-CSharp
+      value: YesNoBoxEvent, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: Dialogue, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
@@ -2889,6 +3035,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &889484823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4892805565515863494, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+  m_PrefabInstance: {fileID: 822229655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &889484824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889484823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0faa978b887f2444839ce2e571c8792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yesEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1156590847}
+        m_TargetAssemblyTypeName: Teleporter, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1307530346}
+        m_TargetAssemblyTypeName: Dialogue, Assembly-CSharp
+        m_MethodName: PlayDialogueFromEvent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 889484824}
+        m_TargetAssemblyTypeName: YesNoBoxEvent, Assembly-CSharp
+        m_MethodName: Activate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  noEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  text: 
 --- !u!1 &916446134
 GameObject:
   m_ObjectHideFlags: 0
@@ -80582,24 +80788,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 1679388318}
     m_Modifications:
     - target: {fileID: 294997839882140682, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ca6cd9dcecf62584eb6fc43db39b0b82, type: 3}
+    - target: {fileID: 294997839882140682, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 294997839882140682, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
       propertyPath: m_Color.g
-      value: 0.9715023
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 294997839882140682, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4869619011298646489, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4869619011298646489, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5109641428264932459, guid: bb2b63bc5d39bb24ba9602058974c6f3, type: 3}
       propertyPath: m_Radius
@@ -82938,7 +83148,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -82951,7 +83161,7 @@ PrefabInstance:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1156590847}
+      objectReference: {fileID: 288646043}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -82966,7 +83176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Teleport
+      value: Activate
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -82974,7 +83184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Teleporter, Assembly-CSharp
+      value: YesNoBoxEvent, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -83414,7 +83624,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -83427,7 +83637,7 @@ PrefabInstance:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1156590847}
+      objectReference: {fileID: 169847074}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -83442,7 +83652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Teleport
+      value: Activate
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -83450,11 +83660,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Teleporter, Assembly-CSharp
+      value: YesNoBoxEvent, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: Dialogue, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
