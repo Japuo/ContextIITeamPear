@@ -26,9 +26,9 @@ MonoBehaviour:
   - This is 200 years from now, if you make the choices like you just made them.
   speakers: 0000000000000000000000000000000000000000
   cutsceneSprites:
-  - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
-  - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
-  - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
-  - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
-  - {fileID: 21300000, guid: d5d1ad18acdcaca4e810e75de7af7fdc, type: 3}
+  - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
+  - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
+  - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
+  - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
+  - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
   showLeftSpeakerBox: 1
