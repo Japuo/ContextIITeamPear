@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2084667998}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169847073}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 969c2e72b14cb34439922c318139bb90, type: 3}
   m_Name: 
@@ -1678,7 +1678,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1962412372}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288646042}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 969c2e72b14cb34439922c318139bb90, type: 3}
   m_Name: 
@@ -3975,7 +3975,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 47397d7c9453feb41a2a1c6cc1ff896b, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -4722,8 +4722,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SettleNfS
       objectReference: {fileID: 0}
-    - target: {fileID: 4892805565545625010, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 4892805565545625012, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5992,7 +5992,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0f02ce09d3c15de4ab8b43d09858d1c4, type: 3}
+    m_Font: {fileID: 12800000, guid: 47397d7c9453feb41a2a1c6cc1ff896b, type: 3}
     m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
@@ -98589,7 +98589,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 47397d7c9453feb41a2a1c6cc1ff896b, type: 3}
     m_FontSize: 35
     m_FontStyle: 2
     m_BestFit: 0
@@ -100572,7 +100572,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 47397d7c9453feb41a2a1c6cc1ff896b, type: 3}
     m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
@@ -101497,10 +101497,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 444116727}
     m_Modifications:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -101603,6 +101599,10 @@ PrefabInstance:
     - target: {fileID: 4892805565515863494, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: m_Name
       value: SettleNaC
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892805565545625012, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
@@ -102387,10 +102387,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 444116727}
     m_Modifications:
     - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892805565515863491, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -102501,6 +102497,10 @@ PrefabInstance:
     - target: {fileID: 4892805565515863494, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
       propertyPath: m_Name
       value: SettleNfN
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892805565545625012, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255ad60d944e3b345b8ed6563a7ffab0, type: 3}
