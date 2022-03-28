@@ -8,7 +8,9 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager Instance { get; private set; }
     
     public GameObject dialogueBox, cutScene, speakerLeftBox, speakerRightBox;
+    public Image textBoxSprite;
     public Text dialogueText, speakerLeftNameText, speakerRightNameText;
+    public Sprite defaultTextBox;
     public Image speakerLeftSprite, speakerRightSprite, cutSceneSprite;
     public float textSpeed = 4;
     bool isPlayingDialogue;
@@ -48,6 +50,15 @@ public class DialogueManager : MonoBehaviour
         {
             speakerRightNameText.text = dialogue.speakerNames[1];
             speakerRightSprite.sprite = dialogue.speakerSprites[1];
+        }
+
+        if(dialogue.textBox != null) 
+        {
+            textBoxSprite.sprite = dialogue.textBox;
+        }
+        else
+        {
+            textBoxSprite.sprite = defaultTextBox;
         }
 
         speakerLeftBox.SetActive(dialogue.showLeftSpeakerBox);

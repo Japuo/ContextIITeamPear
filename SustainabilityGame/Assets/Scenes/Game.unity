@@ -101105,9 +101105,11 @@ MonoBehaviour:
   cutScene: {fileID: 858013367}
   speakerLeftBox: {fileID: 1216961187}
   speakerRightBox: {fileID: 1146273928}
+  textBoxSprite: {fileID: 1783235798}
   dialogueText: {fileID: 1483551665}
   speakerLeftNameText: {fileID: 1761316246}
   speakerRightNameText: {fileID: 1060500721}
+  defaultTextBox: {fileID: 21300000, guid: c56aa07bd8ac261408067a5350199cbe, type: 3}
   speakerLeftSprite: {fileID: 487970506}
   speakerRightSprite: {fileID: 1111042956}
   cutSceneSprite: {fileID: 858013369}

@@ -7,6 +7,7 @@ public class DialogueContent : ScriptableObject
 {
     public string[] speakerNames = new string[] { "Aniti", "Character" };
     public Sprite[] speakerSprites;
+    public Sprite textBox;
 
     [TextArea]
     public string[] dialogue;
