@@ -15,7 +15,8 @@ MonoBehaviour:
   speakerNames:
   - Billy
   speakerSprites:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 4fdd8ecf3fcd74e4ebca1d26669a2ed0, type: 3}
+  textBox: {fileID: 21300000, guid: 84bb90b35fbc1a6498cc7d527d1d172e, type: 3}
   dialogue:
   - My feet hurt from walking so far. Can we please have a break here?
   - If only there was something to see other than sand and ruins.

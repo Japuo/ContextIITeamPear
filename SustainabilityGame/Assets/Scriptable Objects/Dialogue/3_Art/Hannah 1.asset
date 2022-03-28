@@ -15,7 +15,8 @@ MonoBehaviour:
   speakerNames:
   - Hannah
   speakerSprites:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: a6d5f714fa2fecb42af5cac03c099e68, type: 3}
+  textBox: {fileID: 21300000, guid: 263429ccbb86c2748bce18b58e7d2d7e, type: 3}
   dialogue:
   - Thank you! Let's do some painting then!
   speakers: 00000000

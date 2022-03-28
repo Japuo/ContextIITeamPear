@@ -15,7 +15,8 @@ MonoBehaviour:
   speakerNames:
   - Spirit
   speakerSprites:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 6c6b955409956b44381c4fa1fb4c24f2, type: 3}
+  textBox: {fileID: 21300000, guid: ede4ff8052062b345bb547e17ece8fc0, type: 3}
   dialogue:
   - You chose to respect the natural boundaries, and make a temporary settlement.
     Very well.

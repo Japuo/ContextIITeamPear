@@ -15,7 +15,8 @@ MonoBehaviour:
   speakerNames:
   - Walter
   speakerSprites:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 9e3491bcca79f64438c2e90b1537ded6, type: 3}
+  textBox: {fileID: 21300000, guid: 3ca536fb643fd7a4ea79ac5d80bd3254, type: 3}
   dialogue:
   - I'm so hungry I could eat a horse. Or a cow. Like that one.
   - Yeah we should eat that cow! Can you find something to kill it with?
