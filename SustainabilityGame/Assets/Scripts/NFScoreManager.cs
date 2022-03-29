@@ -10,16 +10,23 @@ public class NFScoreManager : MonoBehaviour
 
     public GameObject resultMarker;
 
+    [Range(0, 1)]
+    public float NfSscoreStep;
+    [Range(0, 1)]
+    public float NaCscoreStep;
+    [Range(0, 1)]
+    public float NaNscoreStep;
+
     public void MoveToNfS()
     {
-        resultMarker.transform.position = Vector3.MoveTowards(resultMarker.transform.position, NfSpoint.transform.position, 1);
+        resultMarker.transform.position = Vector3.MoveTowards(resultMarker.transform.position, NfSpoint.transform.position, NfSscoreStep);
     }
     public void MoveToNaC()
     {
-        resultMarker.transform.position = Vector3.MoveTowards(resultMarker.transform.position, NaCpoint.transform.position, 1);
+        resultMarker.transform.position = Vector3.MoveTowards(resultMarker.transform.position, NaCpoint.transform.position, NaCscoreStep);
     }
     public void MoveToNaN()
     {
-        resultMarker.transform.position = Vector3.MoveTowards(resultMarker.transform.position, NaNpoint.transform.position, 1);
+        resultMarker.transform.position = Vector3.MoveTowards(resultMarker.transform.position, NaNpoint.transform.position, NaNscoreStep);
     }
 }
