@@ -14,10 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerNames:
   - Spirit
-  - DevComments
   speakerSprites:
   - {fileID: 21300000, guid: 6c6b955409956b44381c4fa1fb4c24f2, type: 3}
-  - {fileID: 0}
   textBox: {fileID: 21300000, guid: ede4ff8052062b345bb547e17ece8fc0, type: 3}
   dialogue:
   - You all seem very lost. Just like this land. Hmmmm...
@@ -30,14 +28,12 @@ MonoBehaviour:
   - We cannot take that path again. But there are many alternative paths. The choices
     you will make in the future will influence those paths.
   - Here... let me show you...
-  - '[Hier komt maybe like cool fade effect ofzo]'
   - In a few years time, you will be trekking through the land, trying to find a
     place for a settlement.
   - However, you ran out of rations, and have to find food.
   - It might seem like a small choice, but the way you do so will have great impact
     on the future of this place.
-  - '[Nog een cool fade effect idk]'
-  speakers: 00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
+  speakers: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   cutsceneSprites:
   - {fileID: 0}
   - {fileID: 0}
@@ -47,8 +43,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
-  - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
   - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
   - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
   - {fileID: 21300000, guid: 89453107d6a8556478002c21db8ab9eb, type: 3}
