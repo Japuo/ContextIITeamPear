@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -169,5 +170,20 @@ public class Utility : ScriptableObject
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void OpenWebpage(string url)
+    {
+        openIt(url);
+    }
+
+    [DllImport("__Internal")]
+    private static extern void OpenNewTab(string url);
+
+    public void openIt(string url)
+    {
+#if !UNITY_EDITOR && UNITY_WEBGL
+             OpenNewTab(url);
+#endif
     }
 }
