@@ -15,7 +15,7 @@ MonoBehaviour:
   speakerNames:
   - Walter
   speakerSprites:
-  - {fileID: 21300000, guid: 9e3491bcca79f64438c2e90b1537ded6, type: 3}
+  - {fileID: 21300000, guid: 4fdd8ecf3fcd74e4ebca1d26669a2ed0, type: 3}
   textBox: {fileID: 21300000, guid: 3ca536fb643fd7a4ea79ac5d80bd3254, type: 3}
   dialogue:
   - I've spotted the perfect place to settle down. It's got fertile flat ground,

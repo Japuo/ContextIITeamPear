@@ -15,7 +15,7 @@ MonoBehaviour:
   speakerNames:
   - Billy
   speakerSprites:
-  - {fileID: 21300000, guid: 4fdd8ecf3fcd74e4ebca1d26669a2ed0, type: 3}
+  - {fileID: 21300000, guid: 9e3491bcca79f64438c2e90b1537ded6, type: 3}
   textBox: {fileID: 21300000, guid: 84bb90b35fbc1a6498cc7d527d1d172e, type: 3}
   dialogue:
   - 'Ahhhhh, a good view and a nice breeze. The perfect thing to inspire creativity.
