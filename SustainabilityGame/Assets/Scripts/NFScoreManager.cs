@@ -10,11 +10,11 @@ public class NFScoreManager : MonoBehaviour
 
     public GameObject resultMarker;
 
-    [Range(0, 1)]
+    [Range(0, 100)]
     public float NfSscoreStep;
-    [Range(0, 1)]
+    [Range(0, 100)]
     public float NaCscoreStep;
-    [Range(0, 1)]
+    [Range(0, 100)]
     public float NaNscoreStep;
 
     public void MoveToNfS()
