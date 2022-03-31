@@ -1186,7 +1186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &790773281
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3100,30 +3100,31 @@ MonoBehaviour:
 
 
 
-    Art: Liselotte Beijen
+    Art & Level Design: Liselotte Beijen
 
-    Art: Coen Oversier
+    Art & Level
+    Design: Coen Oversier
 
-    Programming:
-    Jacco Verhoeckx
+    Programming: Jacco Verhoeckx
 
-    Design: Mana Kouwenberg
+    Game Design: Mana
+    Kouwenberg
 
-    Design: Louis Jantzen
+    Game Design: Louis Jantzen
 
 
 
-    Pixellari
-    Font: https://www.dafont.com/pixellari.font
+    Pixellari Font: https://www.dafont.com/pixellari.font
 
-    Pixelmania Font: https://www.dafont.com/pixelmania.font
+    Pixelmania
+    Font: https://www.dafont.com/pixelmania.font
 
 
 
     Music:
 
-    Floating
-    Cities by Kevin MacLeod
+    Floating Cities
+    by Kevin MacLeod
 
     Link: https://incompetech.filmmusic.io/song/3765-floating-cities
 
