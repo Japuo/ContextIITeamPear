@@ -92,10 +92,14 @@ public class Dialogue : MonoBehaviour
     {
         Collider2D col = GetComponentInChildren<Collider2D>();
         if(col != null) { col.enabled = false; }
+        if (dialogueEvents.ContainsKey(index))
+        {
+            dialogueEvents[index].InvokeStartEvent();
+        }
         yield return DialogueManager.Instance.PlayDialogue(dialogues[index]);
         if(dialogueEvents.ContainsKey(index))
         {
-            dialogueEvents[index].InvokeEvent();
+            dialogueEvents[index].InvokeEndEvent();
         }
         if (col != null) { col.enabled = true; }
     }
