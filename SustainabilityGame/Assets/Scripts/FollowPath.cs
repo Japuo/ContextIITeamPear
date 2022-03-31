@@ -17,6 +17,8 @@ public class FollowPath : MonoBehaviour
 
     public UnityEvent onFinishEvents;
 
+    public Animator foxAnimator;
+
     void Awake()
     {
         canWalk = true;
@@ -60,6 +62,8 @@ public class FollowPath : MonoBehaviour
             if (Vector2.Distance(player.transform.position, transform.position) <= playerDetectionRange)
             {
                 rb2d.MovePosition(transform.position + dir * moveSpeed * Time.fixedDeltaTime);
+
+                foxAnimator.SetFloat("PlayerClose", playerDetectionRange);
             }
         }
 
