@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bed2a4025314a47a69fc91ede48d46, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  speakerNames:
+  - Narration
+  speakerSprites:
+  - {fileID: 21300000, guid: 6c6b955409956b44381c4fa1fb4c24f2, type: 3}
+  textBox: {fileID: 21300000, guid: ede4ff8052062b345bb547e17ece8fc0, type: 3}
+  dialogue:
+  - Hundreds of years ago, your ancestors ruined this land, taking too much from
+    nature without giving anything back. [Press space to continue]
+  - When the area became near uninhabitable, they moved elsewhere, leaving the place
+    barren.
+  - Now, you and some of your companions have returned to reclaim the land and make
+    a fresh start.
+  speakers: 000000000000000000000000
+  cutsceneSprites:
+  - {fileID: 21300000, guid: ebe012b9a00afab4c98b667a5f3eb09c, type: 3}
+  - {fileID: 21300000, guid: ebe012b9a00afab4c98b667a5f3eb09c, type: 3}
+  - {fileID: 21300000, guid: ebe012b9a00afab4c98b667a5f3eb09c, type: 3}
+  showLeftSpeakerBox: 1
