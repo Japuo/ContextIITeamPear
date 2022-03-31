@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D playerRb;
 
-
+    public Animator animator;
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
@@ -20,5 +20,9 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 AxisInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         playerRb.AddForce(AxisInput * movementSpeed, ForceMode2D.Force);
+
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
+        animator.SetFloat("Speed", AxisInput.sqrMagnitude);
     }
 }
