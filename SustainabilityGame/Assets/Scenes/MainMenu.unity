@@ -3050,8 +3050,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.9352, y: -540.457}
-  m_SizeDelta: {x: 606.2443, y: 1353.4697}
+  m_AnchoredPosition: {x: 1.9352, y: -590.0987}
+  m_SizeDelta: {x: 606.2443, y: 1452.7532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2100784112
 MonoBehaviour:
@@ -3100,11 +3100,16 @@ MonoBehaviour:
 
 
 
-    [ONS HIER]
+    Art: Liselotte Beijen
 
+    Art: Coen Oversier
 
+    Programming:
+    Jacco Verhoeckx
 
-    [IPBES en HKU hier ofzo idfk]
+    Design: Mana Kouwenberg
+
+    Design: Louis Jantzen
 
 
 
@@ -3192,7 +3197,11 @@ MonoBehaviour:
 
     Flowers sprites: Freepik.com
 
-'
+
+
+    Special
+    thanks to IPBES, the HKU University of the Arts Utrecht, and the University of
+    Utrecht'
 --- !u!222 &2100784113
 CanvasRenderer:
   m_ObjectHideFlags: 0
