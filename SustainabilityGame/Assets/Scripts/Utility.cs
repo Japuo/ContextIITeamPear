@@ -174,16 +174,18 @@ public class Utility : ScriptableObject
 
     public void OpenWebpage(string url)
     {
-        openIt(url);
+        //openIt(url);
+        Application.OpenURL(url);
+
     }
 
-    [DllImport("__Internal")]
-    private static extern void OpenNewTab(string url);
+//    [DllImport("__Internal")]
+//    private static extern void OpenNewTab(string url);
 
-    public void openIt(string url)
-    {
-#if !UNITY_EDITOR && UNITY_WEBGL
-             OpenNewTab(url);
-#endif
-    }
+//    public void openIt(string url)
+//    {
+//#if !UNITY_EDITOR && UNITY_WEBGL
+//             OpenNewTab(url);
+//#endif
+//    }
 }
